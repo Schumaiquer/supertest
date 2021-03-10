@@ -1,0 +1,28 @@
+{
+  "name": "supertest-api",
+  "scripts": {
+    "test": "mocha 'test/**/*.spec.ts'"
+  },
+  "mocha": {
+    "require": [
+      "ts-node/register"
+    ],
+    "extension": [
+      "ts"
+    ],
+    "color": true,
+    "timeout": 300000
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2",
+    "ts-node": "^8.10.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^2.9.2",
+    "mocha": "^6",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
